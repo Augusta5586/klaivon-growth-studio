@@ -77,14 +77,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Klaivon Agency — Marketing Built for the Modern Internet" },
+      {
+        name: "description",
+        content:
+          "Klaivon Agency is a Gen-Z digital marketing agency in Kolkata, India helping brands grow through content, social, performance marketing, influencer campaigns & AI-era SEO.",
+      },
+      { name: "author", content: "Klaivon Agency" },
+      { property: "og:title", content: "Klaivon Agency — Marketing Built for the Modern Internet" },
+      { property: "og:description", content: "Gen-Z digital marketing agency helping brands grow online." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
